@@ -3,12 +3,6 @@
 import speech_recognition as sr
 import pyttsx3
 
-# Audio
-# engine = pyttsx3.init('sapi5')
-# voices = engine.getProperty('voices')
-# print(voices[1].id)
-# engine.setProperty('voice', voices[0].id)
-
 # Function
 def takeCommand():
     #It takes microphone input from the user and returns string output
@@ -29,5 +23,3 @@ def takeCommand():
         print("Say that again please...")
         return "None"
     return query
-a=takeCommand()
-print(a)
