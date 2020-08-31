@@ -1,17 +1,13 @@
 # importing the pyttsx library
 import pyttsx3
-# import pyaudio
+
 
 # initialisation
 engine = pyttsx3.init()
-
-# testing
-
-#    engine.say("My first code on text-to-speech")
-#    engine.runAndWait()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[0].id)
 
 # function
-
-def speak_it (op):
-    engine.say(op)
+def speak_it(audio):
+    engine.say(audio)
     engine.runAndWait()

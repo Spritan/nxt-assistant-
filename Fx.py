@@ -48,11 +48,10 @@ def sendEmail(to, content):
 
 # Web
 def web_s(query):
-    print("e")
-    if 'open youtube' in query:
-        webbrowser.open("youtube.com")
-    elif 'open google' in query:
-        webbrowser.open("google.com")
-    elif 'open stackoverflow' in query:
-        webbrowser.open("stackoverflow.com")
+    if 'youtube' in query:
+        webbrowser.open("https://www.youtube.com/", new=2)
+    elif 'google' in query:
+        webbrowser.open("https://www.google.com/", new=2)
+    elif 'stackoverflow' in query:
+        webbrowser.open("https://stackoverflow.com",new=2)
     

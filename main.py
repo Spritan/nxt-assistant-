@@ -35,6 +35,5 @@ while requestAIs!="exit":
         strTime = datetime.datetime.now().strftime("%H:%M:%S")
         speak_it("Sir, the time is"+strTime)
         print("SPRITAN => Sir, the time is "+strTime)
-    elif 'webopen' in requestAIs:
+    elif 'web open' in requestAIs:
         web_s(requestAIs)
-        print("dw")
