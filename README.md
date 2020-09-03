@@ -14,7 +14,7 @@ This is not aimed at any real practical task, it is just a framework for experim
 6. pyttsx3 https://pypi.org/project/pyttsx3/
 7. pyaudio https://pypi.org/project/PyAudio/
 8. speech_recognition https://pypi.org/project/SpeechRecognition/
-9. mysql.connwctor https://pypi.org/project/mysql-connector-python/
+9. mysql.connector https://pypi.org/project/mysql-connector-python/
 
 
 
