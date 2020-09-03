@@ -1,3 +1,8 @@
+#intro
+"""
+    for encrypting/ decrypting passwords and confing files
+"""
+#imports
 from getpass import getpass
 from pbkdf2 import PBKDF2
 from Crypto.Cipher import AES
