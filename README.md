@@ -6,7 +6,7 @@ This is not aimed at any real practical task, it is just a framework for experim
 
 ## Python Library Dependencies ##
 
-webbrower https://docs.python.org/3.6/library/webbrowser.html
+webbrower https://docs.python.org/3.6/library/webbrowser.html <\n>
 smtplib https://docs.python.org/3.6/library/smtplib.html
 wikipedia https://pypi.org/project/wikipedia/
 requests https://pypi.org/project/requests/
