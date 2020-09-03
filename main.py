@@ -1,3 +1,7 @@
+#intro
+"""
+    main fx where it all happens
+"""
 # imports
 from Text_to_Voice import speak_it
 from Fx import start
