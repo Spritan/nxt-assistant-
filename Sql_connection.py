@@ -34,8 +34,8 @@ def get_respond(u_input):
     a2=(u_input,) #converting string to tuple
     mycursor.execute(sqlformula2,a2)
     myresult=mycursor.fetchone()
-    str_muresult=convertTuple(myresult)
-    return myresult
+    str_myresult=convertTuple(myresult)
+    return str_myresult
 
 
 k = "are you happy?"
