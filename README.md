@@ -1,2 +1,2 @@
-# Spritan-py
+# nxt-assistant
  
