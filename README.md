@@ -6,15 +6,15 @@ This is not aimed at any real practical task, it is just a framework for experim
 
 ## Python Library Dependencies ##
 
-webbrower https://docs.python.org/3.6/library/webbrowser.html (python -m webbrowser -t "http://www.python.org")
-smtplib https://docs.python.org/3.6/library/smtplib.html (pip install smtplib)
-wikipedia https://pypi.org/project/wikipedia/
-requests https://pypi.org/project/requests/
-pickle https://docs.python.org/3/library/pickle.html (pip install pickle-mixin)
-pyttsx3 https://pypi.org/project/pyttsx3/
-pyaudio https://pypi.org/project/PyAudio/
-speech_recognition https://pypi.org/project/SpeechRecognition/
-mysql.connwctor https://pypi.org/project/mysql-connector-python/
+1. webbrower https://docs.python.org/3.6/library/webbrowser.html (python -m webbrowser -t "http://www.python.org")
+2. smtplib https://docs.python.org/3.6/library/smtplib.html (pip install smtplib)
+3. wikipedia https://pypi.org/project/wikipedia/
+4. requests https://pypi.org/project/requests/
+5. pickle https://docs.python.org/3/library/pickle.html (pip install pickle-mixin)
+6. pyttsx3 https://pypi.org/project/pyttsx3/
+7. pyaudio https://pypi.org/project/PyAudio/
+8. speech_recognition https://pypi.org/project/SpeechRecognition/
+9. mysql.connwctor https://pypi.org/project/mysql-connector-python/
 
 
 
