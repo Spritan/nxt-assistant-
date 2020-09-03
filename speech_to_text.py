@@ -1,3 +1,7 @@
+#intro
+"""
+    speexh to text functions are here
+"""
 
 # imports
 import speech_recognition as sr
