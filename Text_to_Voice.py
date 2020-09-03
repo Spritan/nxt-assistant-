@@ -1,4 +1,8 @@
-# importing the pyttsx library
+#intro
+"""
+    this is as name suggest text to voice module so as to make the program speak
+"""
+# import
 import pyttsx3
 
 
