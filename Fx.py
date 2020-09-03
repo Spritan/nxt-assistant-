@@ -52,6 +52,8 @@ def sendEmail(to, content):
 # Web
 def web_s(query):
     if 'youtube' in query:
+        speak_it('Opeaning Youtube')
+        print("SPRITAN => Opeaning Youtube")
         webbrowser.open("https://www.youtube.com/", new=2)
     elif 'google' in query:
         webbrowser.open("https://www.google.com/", new=2)

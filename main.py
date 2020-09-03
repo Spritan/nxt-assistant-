@@ -41,3 +41,7 @@ while requestAIs!="exit":
         print("SPRITAN => Sir, the time is "+strTime)
     elif 'web open' in requestAIs:
         web_s(requestAIs)
+    
+    elif requestAIs == "exit":
+        print("SPRITAN => Goodbye take care")
+        speak_it("Goodbye, take care")
