@@ -1,6 +1,9 @@
-# Python program to find current
-# weather details of any city
-# using openweathermap api
+#intro
+"""
+    Python module parts to find current
+    weather details of any city
+    using openweathermap api
+"""
 
 # import required modules
 import requests, json
