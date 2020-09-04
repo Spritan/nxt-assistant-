@@ -1,4 +1,10 @@
+#under heavy work warning
 
+#intro
+"""
+    to create User custom config file in a binary
+"""
+    
 import pickle
 
 class user_add:

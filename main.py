@@ -1,11 +1,17 @@
+#intro
+"""
+    main fx where it all happens
+"""
 # imports
+import datetime
+
 from Text_to_Voice import speak_it
 from Fx import start
 from Fx import wishMe
 from Fx import wiki
 from Fx import sendEmail
 from Fx import web_s
-import datetime
+from weather import weather_report
 
 # Global Variables
 requestAI=""
@@ -31,9 +37,22 @@ while requestAIs!="exit":
         except Exception as e:
             print(e)
             speak_it("Sorry my friend. I am not able to send this email")
-    elif 'current time' in requestAIs:
-        strTime = datetime.datetime.now().strftime("%H:%M:%S")
-        speak_it("Sir, the time is"+strTime)
-        print("SPRITAN => Sir, the time is "+strTime)
+    
     elif 'web open' in requestAIs:
         web_s(requestAIs)
+    
+    elif requestAIs == "exit":
+        print("Goodbye take care")
+        speak_it("Goodbye, take care")
+    
+    elif 'current' in requestAIs:
+        
+        if 'time' in requestAIs:
+            strTime = datetime.datetime.now().strftime("%H:%M:%S")
+            speak_it("Sir, the time is"+strTime)
+            print("SPRITAN => Sir, the time is "+strTime)
+        
+        elif 'weather' in requestAIs:
+            weather_report()
+
+

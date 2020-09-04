@@ -1,3 +1,8 @@
+#intro
+"""
+    for encrypting/ decrypting passwords and confing files
+"""
+#imports
 from getpass import getpass
 from pbkdf2 import PBKDF2
 from Crypto.Cipher import AES
@@ -117,8 +122,8 @@ require('id')
 require('password1')
 require('password2')
 print
-print 'Stored Data:'
+print ('Stored Data:')
 for key in db:
     # decode values on demand to avoid exposing the whole database in memory
-    print key, retrieve(key)
+    print( key, retrieve(key))
     # DO STUFF

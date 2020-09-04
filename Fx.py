@@ -1,4 +1,7 @@
-
+#intro
+"""
+    this module is for all random feature and functions which are not too big to have separate modules
+"""
 #import
 from Text_to_Voice import speak_it
 import datetime
@@ -49,6 +52,8 @@ def sendEmail(to, content):
 # Web
 def web_s(query):
     if 'youtube' in query:
+        speak_it('Opeaning Youtube')
+        print("SPRITAN => Opeaning Youtube")
         webbrowser.open("https://www.youtube.com/", new=2)
     elif 'google' in query:
         webbrowser.open("https://www.google.com/", new=2)
