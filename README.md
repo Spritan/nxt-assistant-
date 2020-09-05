@@ -22,7 +22,7 @@ This is not aimed at any real practical task, it is just a framework for experim
 2.  User.py           : user profile creation. (under work)
 3.  Text_to_voice.py  : The funtion and configuration for text to voice functionality.
 4.  Sql_connection.py : The functiona and configuration of the implementation of Maria.db
-5.  Speech_to_text.py : The functiona and configuration of the implementation of voice recognition (not yet implemented)
+5.  Speech_to_text.py : The functiona and configuration of the implementation of voice recognition
 6.  weather.py        : Geting current weather report via openweathermap API
 7.  loginscreen.py    : Multiuser selection and password protection implementaion. (under work)
 8.  Fx.py             : This module is for all random feature and functions which are not too big to have separate modules.
