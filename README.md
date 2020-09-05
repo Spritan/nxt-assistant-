@@ -1,6 +1,6 @@
 # nxt-assistant
  
-This is a Chatbot written in **Python 3.6** with a MariaDb database backend.  
+This is a Chatbot written in **Python 3.64** with a **MariaDb** database backend.  
 The logic is very simple - the ChatBot stores bag-of-word associations for responses to a previous sentence and uses this to try to match future responses. 
 This is not aimed at any real practical task, it is just a framework for experimenting with and developing further.
 
